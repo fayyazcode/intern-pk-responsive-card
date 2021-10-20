@@ -122,5 +122,20 @@ i.fa.fa-apple {
         margin-bottom: 20px;
         padding-right: 8px;
     }
-
+    @media only screen and (max-width: 760px) {
+        .article{
+            display: block;
+            min-width: 360px;
+            
+        }
+        .article-preview{
+            height: 100%;
+            width: 100%;
+            background: url('https://images.unsplash.com/photo-1591843336309-cbf414ad7978?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80g');
+            background-size: cover;
+            background-position:  center;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+    }
     
